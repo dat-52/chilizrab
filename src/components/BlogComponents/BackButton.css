@@ -1,0 +1,22 @@
+.backbtn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 80%;
+    text-align: left;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.backbtn-container .link {
+    text-decoration: none;
+    color: rgb(15, 14, 15);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.backbtn-container .link:hover {
+    color: rgb(11, 10, 11);
+    font-weight: 600;
+}
